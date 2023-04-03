@@ -5,7 +5,6 @@ git clone https://github.com/snachi2/breastcancer.git
 pip install streamlit
 
 # go to the project directory and run the following command in your terminal to run the application 
-cd breastcancer
 streamlit run .\streamlit.py
 
 # open the following url in browser if the popup doesn't work automatically
