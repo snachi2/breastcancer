@@ -44,7 +44,7 @@ columns = ["texture_mean","area_mean","smoothness_mean","concavity_mean","symmet
                           "fractal_dimension_se","smoothness_worst", "symmetry_worst","fractal_dimension_worst"]
 print(columns)
 
-model = joblib.load('rf-model.joblib')
+model = joblib.load('/Users/sivagamiaravind/breastcancer/rf-model.pkl')
 prediction = model.predict(df_predict)
 
 if st.button('Predict'):
